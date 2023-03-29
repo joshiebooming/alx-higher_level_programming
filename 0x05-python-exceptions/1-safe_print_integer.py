@@ -5,7 +5,7 @@ def safe_print_integer(value):
       value(int)
     Return:
         True -if value is an int
-	else False"""
+        else False"""
     try:
         print("{:d}".format(value))
         return (True)
